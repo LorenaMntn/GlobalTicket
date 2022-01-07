@@ -41,17 +41,6 @@ const styles = StyleSheet.create({
     height: 100,
     width: 150,
   },
-  title: {
-    fontFamily: 'Ubuntu-Regular',
-  },
-  subtitle: {
-    paddingTop: 5,
-    fontFamily: 'Ubuntu-Regular',
-  },
-  content: {
-    fontFamily: 'Ubuntu-Light',
-    fontWeight: '300',
-  },
   heroimage: {
     height: 170,
     width: '100%',

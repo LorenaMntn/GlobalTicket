@@ -7,7 +7,7 @@ const Menu = () => {
   return (
     <View style={styles.menu}>
       <TouchableOpacity
-        onPress={() => navigation.navigate('Ticket')}
+        onPress={() => navigation.navigate('Tickets')}
         style={styles.button}>
         <Text style={styles.buttontext}>Events</Text>
       </TouchableOpacity>
@@ -24,9 +24,6 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     marginRight: 5,
     marginLeft: 5,
-  },
-  buttontext: {
-    fontFamily: 'Ubuntu-Regular',
   },
 });
 

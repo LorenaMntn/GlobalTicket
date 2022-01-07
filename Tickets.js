@@ -17,7 +17,7 @@ const Tickets = () => {
           <Text
             style={styles.ticketdescription}
             numberOfLines={2}
-            ellipsizeMode="tails">
+            ellipsizeMode="tail">
             {item.description}
           </Text>
           <Text style={styles.tickettitle}>Price: {item.price}</Text>
@@ -50,23 +50,19 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   tickettitle: {
-    fontFamily: 'Ubuntu-Regular',
     fontWeight: 'bold',
     textAlign: 'center',
   },
   ticketshortdescription: {
-    fontFamily: 'Ubuntu-Light',
     fontWeight: '600',
     textAlign: 'center',
     paddingTop: 5,
   },
   ticketdescription: {
-    fontFamily: 'Ubuntu-Light',
     fontWeight: '600',
     padding: 15,
   },
   ticketbutton: {
-    fontFamily: 'Ubuntu-Regular',
     fontWeight: 'bold',
     textAlign: 'center',
     paddingBottom: 15,

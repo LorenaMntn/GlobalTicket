@@ -5,6 +5,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import Home from './Home';
 import Tickets from './Tickets';
+import Contact from './Contact';
 
 const Stack = createStackNavigator();
 const App = () => {
@@ -25,6 +26,14 @@ const App = () => {
             component={Tickets}
             options={{
               headerTitleAlign: 'center',
+            }}
+          />
+          <Stack.Screen
+            name="Contact"
+            component={Contact}
+            options={{
+              headerTitleAlign: 'center',
+              headerTitle: 'Contact Us',
             }}
           />
         </Stack.Navigator>
